@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="_layout" xmlns:th="http://www.w3.org/1999/xhtml">
+<body>
+<div layout:fragment="content">
+    
+    <div class="container" style="width: 50%">
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-2 text-gray-800">New Ticket Form</h1>
+                    <ol class="breadcrumb " style="width: 39rem;">
+                        <li><i class="fa fa-home"></i><a href="/index">Home</a></li>
+                        <li><i class="fa fa-bars"></i><a href="/helpdesk">Helpdesk Home</a></li>
+                        <li><i class="fa fa-bars"></i><a href="/helpdesk/tickets">Tickets List</a></li>
+                        <li class="text-gray-800"><i class="fa fa-square-o"></i>Add New Ticket</li>
+                    </ol>
+                    <div class="card shadow mb-4 justify-content-center" style="width: 39rem;">
+                        <div class="card-body">
+                            <form th:action="@{/helpdesk/tickets/save}" method="post">
+                                <div class="panel-body">
+                                    <div class="form-group">
+                                        <label for="idAdd" class="col-form-label"> Department Id:</label>
+                                        <input type="text" class="form-control col-md-5 text-gray-800" id="idAdd" name="id" placeholder="  Id  " disabled>
+                                    </div>
+                                    <div class="form-group col-md-11">
+                                        <label for="descriptionAdd" class="col-form-label">Description:</label>
+                                        <textarea type="text" class="form-control" id="descriptionAdd" rows="2" name="description" required></textarea>
+                                    </div>
+                                    <div class="form-group col-md-11">
+                                        <label for="raisedbyid" class="col-form-label">Raised By:</label>
+                                        <select class="form-control" id="raisedbyid" name="raisedbyid">
+                                            <option th:value="${null}">-SELECT-</option>
+                                            <option th:each="employee : ${employees}"
+                                                    th:value="${employee.employeeId}"
+                                                    th:text="${employee.firstname}">
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-11">
+                                        <label for="ticketstatusid" class="col-form-label">Ticket Status:</label>
+                                        <select class="form-control" id="ticketstatusid" name="ticketstatusid">
+                                            <option th:value="${null}">-SELECT-</option>
+                                            <option th:each="ticketStatus : ${ticketStatuses}"
+                                                    th:value="${ticketStatus.id}"
+                                                    th:text="${ticketStatus.description}">
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-11">
+                                        <label for="ticketDate" class="col-sm-4 col-form-label">Ticket Date:</label>
+                                        <input type="date" class="form-control" id="ticketDate" name="ticketDate" placeholder="Date of Ticket Registration">
+                                    </div>
+                                </div>
+                                <div class="card-footer col-md-11">
+                                    <button type="submit" th:href="@{/helpdesk/tickets/save}"  class="btn btn-success">Save</button>
+                                    <a th:href="@{/helpdesk/tickets}"  class="btn btn-warning">Exit</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- End of Main Content -->
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	  layout:decorate="_layout" xmlns:th="http://www.w3.org/1999/xhtml">
+<div>
+<div layout:fragment="content">
+	<!-- Content Wrapper -->
+	<div id="content-wrapper" class="d-flex flex-column">
+
+		<!-- Main Content -->
+		<div id="content">
+
+			<!-- Begin Page Content -->
+			<div class="container-fluid">
+
+				<!-- Page Heading -->
+				<h1 class="h3 mb-2 text-gray-800">Update Project Hire</h1>
+				<ol class="breadcrumb">
+					<li><i class="fa fa-home"></i><a href="/index">Home</a></li>
+					<li><i class="fa fa-bars"></i><a href="/projects">Projects Home</a></li>
+					<li><i class="fa fa-bars"></i><a href="/projects/projectHires">Project Hires List</a></li>
+					<li class="text-gray-800"><i class="fa fa-square-o"></i>Update Project Hire</li>
+				</ol>
+				<!-- DataTables Example -->
+				<div class="card shadow mb-4">
+					<div class="card-body">
+						<form class="form-horizontal" th:action="@{'/projects/projectHires/update/'+${projectHire.id}}" method="put">
+							<table width="100%">
+								<tr>
+									<td width="50%">
+										<div class="form-group row">
+											<label for="id" class="col-sm-3 col-form-label">Hire Id: </label>
+											<div class="col-sm-4">
+												<input type="text" class="form-control" id="id" name="id" th:value="${projectHire.id}" readonly>
+											</div>
+										</div>
+										<div class="form-group row">
+											<label for="ddlProject" class="col-sm-3 col-form-label">Project: </label>
+											<div class="col-sm-7">
+												<select  id="ddlProject" name="projectid" class="form-control">
+													<option th:value="${null}">-SELECT-</option>
+													<option th:each="project : ${projects}"
+															th:value="${project.projectId}"
+															th:selected="${project.projectId}==${projectHire.projectid} ? True: False"
+															th:text="${project.name}">
+													</option>
+												</select>
+											</div>
+										</div>
+										<div class="form-group row">
+											<label for="ddlClient" class="col-sm-3 col-form-label">Client: </label>
+											<div class="col-sm-7">
+												<select  id="ddlClient" name="clientid" class="form-control" >
+													<option th:value="${null}">-SELECT-</option>
+													<option th:each="client : ${clients}"
+															th:value="${client.id}"
+															th:selected="${client.id}==${projectHire.clientid} ? True: False"
+															th:text="${client.name}">
+													</option>
+												</select>
+											</div>
+										</div>
+										<div class="form-group row">
+											<label for="dateHired" class="col-sm-3 col-form-label">Date Hired:</label>
+											<div class="col-sm-7">
+												<input type="date" class="form-control" id="dateHired" name="dateHired" th:field="${projectHire.dateHired}" th:value="${projectHire.dateHired}">
+											</div>
+										</div>
+									</td>
+									<td width="50%" style="padding-left:10px">
+
+										<div class="form-group row">
+											<label for="dateDue" class="col-sm-3 col-form-label">Date Due: </label>
+											<div class="col-sm-7">
+												<input type="date" class="form-control" id="dateDue" name="dateDue" th:field="${projectHire.dateDue}" th:value="${projectHire.dateDue}">
+											</div>
+										</div>
+										<div class="form-group row">
+											<label for="price" class="col-sm-3 col-form-label">Price: </label>
+											<div class="col-sm-7">
+												<input type="text" class="form-control" id="price" name="price" th:value="${projectHire.price}">
+											</div>
+										</div>
+
+										<div class="form-group row">
+											<label for="remarks" class="col-sm-3 col-form-label">Remarks</label>
+											<div class="col-sm-7">
+												<textarea class="form-control" id="remarks" name="remarks" th:field="${projectHire.remarks}" rows="3"></textarea>
+											</div>
+										</div>
+									</td>
+								</tr>
+							</table>
+							<div class="card-footer">
+								<a th:href="@{/projects/projectHires}"  class="btn btn-warning">Close</a>
+								<button type="submit" class="btn btn-primary">Save Update</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-- /.container-fluid -->
+		</div>
+		<!-- End of Main Content -->
+	</div>
+</div>
+</div>
+</body>
+</html>

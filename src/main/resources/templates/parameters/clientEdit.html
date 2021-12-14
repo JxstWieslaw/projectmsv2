@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="_layout" xmlns:th="http://www.w3.org/1999/xhtml">
+<body>
+<div layout:fragment="content">
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+        <!-- Main Content -->
+        <div id="content">
+
+            <!-- Begin Page Content -->
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <h1 class="h3 mb-2 text-gray-800">Update Client Record</h1>
+                <ol class="breadcrumb ">
+                    <li><i class="fa fa-home"></i><a href="/index">Home</a></li>
+                    <li><i class="fa fa-bars"></i><a href="/parameters">Parameters Home</a></li>
+                    <li><i class="fa fa-bars"></i><a href="/parameters/clients">Clients List</a></li>
+                    <li class="text-gray-800"><i class="fa fa-square-o"></i>Edit Client Record</li>
+                </ol>
+                <!-- DataTables Example -->
+                <div class="card shadow mb-4">
+                    <div class="card-body">
+                        <form class="form-horizontal" th:action="@{'/parameters/clients/update/'+${client.id}}" method="put">
+                            <table width="100%">
+                                <tr>
+                                    <td width="50%">
+
+                                        <div class="form-group row">
+                                            <label for="txtIdAdd" class="col-sm-4 col-form-label">Client Id: </label>
+                                            <div class="col-sm-3">
+                                                <input type="text" class="form-control" id="txtIdAdd" name="id" th:value="${client.id}" readonly>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="txtNameAdd" class="col-sm-4 col-form-label">Name: </label>
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" id="txtNameAdd" name="name" th:value="${client.name}">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="txtDetailsAdd" class="col-sm-4 col-form-label">Details: </label>
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" id="txtDetailsAdd" name="details" th:value="${client.details}">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="txtWebsiteAdd" class="col-sm-4 col-form-label">Website: </label>
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" id="txtWebsiteAdd" name="website" th:value="${client.website}">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="txtAddressAdd" class="col-sm-4 col-form-label">Address</label>
+                                            <div class="col-sm-6">
+                                                <textarea class="form-control" id="txtAddressAdd" name="address"  th:field="${client.address}"></textarea>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td width="50%" style="padding-left:10px">
+                                        <div class="form-group row">
+                                            <label for="ddlCountryAdd" class="col-sm-4 col-form-label">Country: </label>
+                                            <div class="col-sm-6">
+                                                <select class="form-control" id="ddlCountryAdd" name="countryid">
+                                                    <option th:value="${null}">-SELECT-</option>
+                                                    <option th:each="country : ${countries}"
+                                                            th:value="${country.id}"
+                                                            th:selected="${country.id}==${client.countryid} ? True: False"
+                                                            th:text="${country.nationality}">
+                                                    </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="ddlStateAdd" class="col-sm-4 col-form-label">State/Province: </label>
+                                            <div class="col-sm-6">
+                                                <select class="form-control" id="ddlStateAdd" name="stateid">
+                                                    <option th:value="${null}">-SELECT-</option>
+                                                    <option th:each="state : ${states}"
+                                                            th:value="${state.id}"
+                                                            th:selected="${state.id}==${client.stateid} ? True: False"
+                                                            th:text="${state.name}">
+                                                    </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="txtCityAdd" class="col-sm-4 col-form-label">City: </label>
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" id="txtCityAdd" name="city" th:value="${client.city}" >
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="txtPhoneAdd" class="col-sm-4 col-form-label">Phone: </label>
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" id="txtPhoneAdd" name="phone" th:value="${client.phone}">
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label for="txtMobileAdd" class="col-sm-4 col-form-label">Mobile: </label>
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control" id="txtMobileAdd" name="mobile" th:value="${client.mobile}">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <label for="txtEmailAdd" class="col-sm-4 col-form-label">Email</label>
+                                            <div class="col-sm-6">
+                                                <input type="email" class="form-control" id="txtEmailAdd" name="email" th:value="${client.email}">
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div class="card-footer" style="width: 70%">
+                                <button type="submit" href="/parameters/clients"  class="btn btn-success">Save Update</button>
+                                <a href="/parameters/clients"  class="btn btn-warning">Exit</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container-fluid -->
+    </div>
+    <!-- End of Main Content -->
+</div>
+<th:block layout:fragment="script">
+    <script language="JavaScript">
+        $('document').ready(function () { // Line 1
+
+            $('#ddlCountryAdd').on('change',function () { // Line 2
+
+                $('#ddlStateAdd').empty().append('<option value="null">-SELECT-</option>'); // Line 3
+
+                    var countryid = $(this).val(); //Line 4
+
+                    var href = "http://localhost:8080/parameters/country/" + countryid //Line 5
+
+                    $.get(href, function (country, status) { // Line 6
+
+                        var states = country.states; // Line 7
+
+                        for (var i = 0; i <= states.length-1; i++) { // Line 8
+
+                            $('#ddlStateAdd').append('<option value="' + states[i].id + '">' + states[i].name + '</option>'); // Line 9
+                        }
+                })
+            })
+        })
+    </script>
+</th:block>
+</body>
+</html>

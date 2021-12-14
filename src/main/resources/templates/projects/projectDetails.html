@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="_layout" xmlns:th="http://www.w3.org/1999/xhtml">
+<body>
+<div layout:fragment="content">
+
+    <div class="container" style="width: 50%">
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-2 text-gray-800">Project Details</h1>
+                    <ol class="breadcrumb " style="width: 40rem;">
+                        <li><i class="fa fa-home"></i><a href="/index">Home</a></li>
+                        <li><i class="fa fa-bars"></i><a href="/projects">Projects Home</a></li>
+                        <li><i class="fa fa-bars"></i><a href="/projects/projects">Projects List</a></li>
+                        <li class="text-gray-800"><i class="fa fa-square-o"></i>Project Record Details</li>
+                    </ol>
+
+                            <!-- DataTables Example -->
+                    <div class="card shadow mb-4 justify-content-center" style="width: 40rem;">
+                        <div class="card-body">
+                            <form class="form-horizontal">
+                                <div class="panel-body">
+                                    <div class="form-group">
+                                        <label for="txtIdAdd" class="text-gray-800">Id:</label>
+                                        <input type="text" class="form-control col-md-5 text-gray-800" id="txtIdAdd" name="projectId" th:value="${project.projectId}" readonly>
+                                    </div>
+                                    <div class="form-group col-md-11">
+                                        <label for="projectName">Project Name:</label>
+                                        <input id="projectName" class="form-control" type="text" th:value="${project.name}" readonly name="name">
+                                    </div>
+                                    <div class="form-group col-md-11">
+                                        <label for="projectDescription">Project Description:</label>
+                                        <textarea class="form-control" id="projectDescription" type="text" rows="3" name="description" readonly th:field="${project.description}"></textarea>
+                                    </div>
+                                    <div class="form-group col-md-11">
+                                        <label for="clientAdd" >Client: </label>
+                                        <select disabled class="form-control" id="clientAdd" name="clientid">
+                                            <option th:value="${null}">-SELECT-</option>
+                                            <option th:each="client : ${clients}"
+                                                    th:value="${client.id}"
+                                                    th:selected="${client.id}==${project.clientid} ? True: False"
+                                                    th:text="${client.name}">
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-11">
+                                        <label for="stageSelect">Project Stage: </label>
+                                        <select disabled class="form-control" id="stageSelect" name="projectstageid">
+                                            <option th:value="${null}">-SELECT-</option>
+                                            <option th:each="projectStage : ${projectStages}"
+                                                    th:value="${projectStage.id}"
+                                                    th:selected="${projectStage.id}==${project.projectstageid} ? True: False"
+                                                    th:text="${projectStage.details}">
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-11">
+                                        <label for="ddlProjectTypeAdd">Project Type: </label>
+                                        <select disabled class="form-control" id="ddlProjectTypeAdd" name="projecttypeid">
+                                            <option th:value="${null}">-SELECT-</option>
+                                            <option th:each="projectType : ${projectTypes}"
+                                                    th:value="${projectType.id}"
+                                                    th:selected="${projectType.id}==${project.projecttypeid} ? True: False"
+                                                    th:text="${projectType.description}">
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-11">
+                                        <label for="multiSelect">Assigned to: </label>
+                                        <select disabled multiple="multiple" class="form-control text-gray-900" id="multiSelect" name="employees">
+                                            <option th:each = "employee: ${employees}"
+                                                    th:value = "${employee.employeeId}"
+                                                    th:selected="${project.employees.contains(employee)}"
+                                                    th:text = "${employee.firstname}">
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-md-11">
+                                        <label for="acquisitionDateAdd">Project Acquisition Date:</label>
+                                        <input id="acquisitionDateAdd" type="date" class="form-control" readonly name="acquisitionDate" th:field="${project.acquisitionDate}" th:value="${project.acquisitionDate}">
+                                    </div>
+                                    <div class="form-group col-md-11">
+                                        <label for="dueDateAdd">Project Due Date:</label>
+                                        <input id="dueDateAdd" type="date" class="form-control" name="dueDate" th:field="${project.dueDate}" readonly th:value="${project.dueDate}">
+                                    </div>
+                                    <div class="form-group col-md-11">
+                                        <label for="priority">Project Priority: </label>
+                                        <select disabled class="form-control" id="priority" name="projectpriorityid">
+                                            <option th:value="${null}">-SELECT-</option>
+                                            <option th:each="projectPriority : ${projectPriorities}"
+                                                    th:value="${projectPriority.id}"
+                                                    th:selected="${projectPriority.id}==${project.projectpriorityid} ? True: False"
+                                                    th:text="${projectPriority.details}">
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <br>
+                                    <div class="card-footer col-md-11 ">
+                                        <a href="/projects/projects"  class="btn btn-warning">Exit</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- End of Main Content -->
+        </div>
+    </div>
+</div>
+</body>
+</html>

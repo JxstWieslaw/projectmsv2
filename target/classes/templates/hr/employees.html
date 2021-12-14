@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="_layout" xmlns:th="http://www.w3.org/1999/xhtml">
+<body>
+<div layout:fragment="content">
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+        <!-- Main Content -->
+        <div id="content">
+
+            <!-- Begin Page Content -->
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <h1 class="h3 mb-2 text-gray-800">List of Employees</h1>
+                <ol class="breadcrumb">
+                    <li><i class="fa fa-home"></i><a href="/index">Home</a></li>
+                    <li><i class="fa fa-bars"></i><a href="/hr">HR Home</a></li>
+                    <li class="text-gray-800"><i class="fa fa-square-o"></i>Employees List</li>
+                </ol>
+                <!-- DataTables Example -->
+                <div class="card shadow mb-4">
+                    <div class="card-header py-3">
+                        <a th:href="@{/hr/employeeAdd}"  class="btn btn-primary">
+                            New Employee
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table  table-advance table-hover" id="dataTable" width="100%" cellspacing="0">
+                                <thead>
+                                <tr>
+                                    <th><i class="icon_profile"></i> Full Name</th>
+                                    <th><i class="icon_calendar"></i>Hire Date</th>
+                                    <th><i class="icon_mail_alt"></i> Email</th>
+                                    <th><i class="icon_pin_alt"></i> City</th>
+                                    <th><i class="icon_mobile"></i> Phone</th>
+                                    <th><i class="icon_cogs"></i> Action</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr th:each = "employee : ${employees}">
+                                    <td th:text="${employee.firstname} + ' ' + ${employee.lastname}">FullName</td>
+                                    <td th:text="${employee.hireDate}">HireDate</td>
+                                    <td th:text="${employee.email}">Email</td>
+                                    <td th:text="${employee.city}">City</td>
+                                    <td th:text="${employee.phone}">Phone</td>
+                                    <td>
+                                        <div class="btn-group">
+                                            <a class="btn btn-primary" th:href="@{'/hr/employeeDetails/'+${employee.employeeId}}"><i class="icon_document_alt"></i></a>
+                                            <a class="btn btn-success" th:href="@{'/hr/employeeEdit/'+${employee.employeeId}}"><i class="icon_pencil-edit"></i></a>
+                                            <a class="btn btn-danger" onclick="return confirm('Are you sure you want to delete?')" th:href="@{'/hr/employees/delete/'+${employee.employeeId}}"><i class="icon_close_alt2"></i></a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- End of Main Content -->
+    </div>
+</div>
+</body>
+</html>

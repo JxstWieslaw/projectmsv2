@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="_layout" xmlns:th="http://www.w3.org/1999/xhtml">
+<body>
+<div layout:fragment="content">
+    <div class="container" style="width: 50%">
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-2 text-gray-800">New/Updated Project Status</h1>
+                    <ol class="breadcrumb " style="width: 40rem;">
+                        <li><i class="fa fa-home"></i><a href="/index">Home</a></li>
+                        <li><i class="fa fa-bars"></i><a href="/projects">Projects Home</a></li>
+                        <li><i class="fa fa-bars"></i><a href="/projects/projectStatuses">Project Statuses List</a></li>
+                        <li class="text-gray-800"><i class="fa fa-square-o"></i>Update Project Status</li>
+                    </ol>
+                    <!-- DataTables Example -->
+                    <div class="card shadow mb-4 justify-content-center" style="width: 40rem;">
+                        <div class="card-body">
+                          <form class="form-horizontal" th:action="@{/projects/projectStatuses/save}" method="post">
+                              <div class="panel-body">
+                                  <div class="form-group col-md-5">
+                                      <label for="txtIdAdd" >Id: </label>
+                                      <input type="text" class="form-control" id="txtIdAdd" name="id" placeholder="Id" disabled>
+                                  </div>
+                                  <div class="form-group col-md-11">
+                                      <label for="projectSelect">Project Name: </label>
+                                      <select class="form-control" id="projectSelect" name="project">
+                                          <option th:value="${null}">-SELECT-</option>
+                                          <option th:each = "project: ${projects}"
+                                                  th:value = "${project.projectId}"
+                                                  th:text = "${project.name}">
+                                          </option>
+                                      </select>
+                                  </div>
+                                  <div class="form-group col-md-11">
+                                      <label for="priority">Priority:</label>
+                                      <select class="form-control" id="priority" name="priority">
+                                          <option th:value="${null}">-SELECT-</option>
+                                          <option th:value="LOW"> LOW </option>
+                                          <option th:value="MEDIUM"> MEDIUM </option>
+                                          <option th:value="HIGH"> HIGH </option>
+                                      </select>
+                                  </div>
+                                  <div class="form-group col-md-11">
+                                      <label for="percentDone">Percent Completed:</label>
+                                      <select class="form-control" id="percentDone" name="percentComplete">
+                                          <option th:value="${null}">-SELECT-</option>
+                                          <option th:value="0"> 0 </option>
+                                          <option th:value="10"> 10 </option>
+                                          <option th:value="20"> 20</option>
+                                          <option th:value="30"> 30</option>
+                                          <option th:value="40"> 40 </option>
+                                          <option th:value="50"> 50</option>
+                                          <option th:value="60"> 60</option>
+                                          <option th:value="70"> 70</option>
+                                          <option th:value="80"> 80</option>
+                                          <option th:value="90"> 90</option>
+                                          <option th:value="100"> 100</option>
+                                      </select>
+                                  </div>
+                                  <div class="form-group col-md-11">
+                                      <label for="status">Status:</label>
+                                      <select class="form-control" id="status" name="status">
+                                          <option th:value="${null}">-SELECT-</option>
+                                          <option th:value="NOTSTARTED"> NOT STARTED </option>
+                                          <option th:value="INPROGRESS"> IN PROGRESS </option>
+                                          <option th:value="COMPLETED"> COMPLETED </option>
+                                      </select>
+                                  </div>
+                                  <div class="card-footer col-md-11">
+                                      <button type="submit" th:href="@{/projects/projectStatuses/save}"  class="btn btn-success">Save</button>
+                                      <a th:href="@{/projects/projectStatuses}"  class="btn btn-warning">Exit</a>
+                                  </div>
+                              </div>
+                          </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- End of Main Content -->
+    </div>
+</div>
+</body>
+</html>

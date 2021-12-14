@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" 
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="_layout"
+      xmlns:th="http://www.w3.org/1999/xhtml">
+<body>
+<div layout:fragment="content">
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+        <!-- Main Content -->
+        <div id="content">
+
+            <!-- Begin Page Content -->
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <h1 class="h3 mb-2 text-gray-800">List of Project Counts</h1>
+                <ol class="breadcrumb">
+                    <li><i class="fa fa-home"></i><a href="/index">Home</a></li>
+                    <li><i class="fa fa-bars"></i><a href="/projects">Projects Home</a></li>
+                    <li class="text-gray-800"><i class="fa fa-square-o"></i>Project Counts List</li>
+                </ol>
+                <!-- DataTables Example -->
+                <div class="card shadow mb-4">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-advance table-hover" id="dataTable" width="100%" cellspacing="0">
+                                <thead>
+                                    <tr>
+                                        <th><i class="icon_profile"></i>First Name</th>
+                                        <th><i class="icon_profile"></i>Last Name</th>
+                                        <th><i class="icon_cogs"></i>Project Count</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr th:each = "aEmployeeListProjectsCnt: ${employeesListProjectCnt}">
+                                        <td th:text = " ${aEmployeeListProjectsCnt.firstName}"/>
+                                        <td th:text = " ${aEmployeeListProjectsCnt.lastName}"/>
+                                        <td th:text = " ${aEmployeeListProjectsCnt.projectCount}"/>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- End of Main Content -->
+    </div>
+</div>
+</body>
+</html>

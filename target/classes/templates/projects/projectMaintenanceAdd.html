@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="_layout" xmlns:th="http://www.w3.org/1999/xhtml">
+<body>
+<div layout:fragment="content">
+<div class="container" style="width: 50%">
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+        <!-- Main Content -->
+        <div id="content">
+
+            <!-- Begin Page Content -->
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <h1 class="h3 mb-2 text-gray-800">New Project Maintenance</h1>
+                <ol class="breadcrumb " style="width: 40rem;">
+                    <li><i class="fa fa-home"></i><a href="/index">Home</a></li>
+                    <li><i class="fa fa-bars"></i><a href="/projects">Projects Home</a></li>
+                    <li><i class="fa fa-bars"></i><a href="/projects/projectMaintenance">Projects Maintenance List</a></li>
+                    <li class="text-gray-800"><i class="fa fa-square-o"></i>Maintain New Project</li>
+                </ol>
+                <div class="card shadow mb-4 justify-content-center" style="width: 40rem;">
+                    <div class="card-body">
+                        <form th:action="@{/projects/projectMaintenance/save}" method="post">
+                            <div class="panel-body">
+                                <div class="form-group col-md-5">
+                                    <label for="id" class="col-form-label">Id:</label>
+                                    <input type="text" class="form-control" id="id" name="id" disabled>
+                                </div>
+                                <div class="form-group col-md-11">
+                                    <label for="ddlProject" class="col-form-label">Project Name: </label>
+                                    <select class="form-control" id="ddlProject" name="projectid">
+                                        <option th:value="${null}">-SELECT-</option>
+                                        <option th:each="project : ${projects}"
+                                                th:value="${project.projectId}"
+                                                th:text="${project.name}">
+                                        </option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-11">
+                                    <label for="ddlEmployee" class="col-form-label">Maintenance Done By: </label>
+                                    <select class="form-control" id="ddlEmployee" name="employeeid">
+                                        <option th:value="${null}">-SELECT-</option>
+                                        <option th:each="employee : ${employees}"
+                                                th:value="${employee.employeeId}"
+                                                th:text="${employee.firstname}">
+                                        </option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-11">
+                                    <label for="startDate" class="col-form-label">Start Date:</label>
+                                    <input type="date" class="form-control" id="startDate" name="startDate">
+                                </div>
+
+                                <div class="form-group col-md-11">
+                                    <label for="endDate" class="col-form-label">End Date:</label>
+                                    <input type="date" class="form-control" id="endDate" name="endDate"></input>
+                                </div>
+                                <div class="form-group col-md-11">
+                                    <label for="remarks" class="col-form-label">Remarks:</label>
+                                    <textarea class="form-control" id="remarks" name="remarks" rows="3"></textarea>
+                                </div>
+                                <div class="form-group col-md-11">
+                                    <label for="price" class="col-form-label">Price:</label>
+                                    <input type="text" class="form-control" id="price" name="price">
+                                </div>
+                            </div>
+                            <br>
+                            <div class="card-footer col-md-11">
+                                <button type="submit" th:href="@{/projects/projectMaintenance/save}"  class="btn btn-success">Save</button>
+                                <a th:href="@{//projects/projectMaintenance}"  class="btn btn-warning">Exit</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- /.container-fluid -->
+        </div>
+        <!-- End of Main Content -->
+    </div>
+</div>
+</div>
+</body>
+</html>
