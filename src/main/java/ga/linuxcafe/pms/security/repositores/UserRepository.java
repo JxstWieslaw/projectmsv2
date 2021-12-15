@@ -1,6 +1,6 @@
-package ga.linuxcafe.pms.parameters.repositories;
+package ga.linuxcafe.pms.security.repositores;
 
-import ga.linuxcafe.pms.parameters.models.Users;
+import ga.linuxcafe.pms.security.models.Users;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

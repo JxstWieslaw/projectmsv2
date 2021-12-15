@@ -1,8 +1,8 @@
 package ga.linuxcafe.pms.parameters.services;
 
 import ga.linuxcafe.pms.parameters.models.UserPrincipal;
-import ga.linuxcafe.pms.parameters.models.Users;
-import ga.linuxcafe.pms.parameters.repositories.UserRepository;
+import ga.linuxcafe.pms.security.models.Users;
+import ga.linuxcafe.pms.security.repositores.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

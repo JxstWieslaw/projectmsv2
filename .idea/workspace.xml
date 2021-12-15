@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cecf2a0f-020b-4996-8264-ab01e77f4186" name="Changes" comment="" />
+    <list default="true" id="cecf2a0f-020b-4996-8264-ab01e77f4186" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/security/controllers/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/security/models/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/security/repositores/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/security/services/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/accessDenied.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/security/role.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/security/roleDetails.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/security/roleEdit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/security/userAdd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/security/userEdit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/security/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/controllers/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/controllers/ApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/security/controllers/UsersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/models/ApplicationSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/models/ApplicationSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/models/UserPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/models/UserPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/security/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/security/repositores/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/services/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/services/MyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/services/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/security/services/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/_layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/assets/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/assets/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/security/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/security/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/ApplicationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/ApplicationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/UsersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/models/ApplicationSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/models/ApplicationSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/models/UserPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/models/UserPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/models/Users.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/MyUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/MyUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/UsersService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/_layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/assets/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/assets/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/security/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/security/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,9 +107,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="PostgreSQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/helpdesk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -87,10 +124,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Wieslaw\Documents\Workspace SpringTS\project-ms\src\main\resources\templates\helpdesk" />
-      <recent name="C:\Users\Wieslaw\Documents\Workspace SpringTS\project-ms\src\main\resources\templates\accounts" />
-      <recent name="C:\Users\Wieslaw\Documents\Workspace SpringTS\project-ms\src\main\resources\templates\hr" />
-      <recent name="C:\Users\Wieslaw\Documents\Workspace SpringTS\project-ms\src\main\resources\templates\projects" />
+      <recent name="C:\Users\Wieslaw\Documents\Workspace SpringTS\project-ms\src\main\resources\templates" />
+      <recent name="C:\Users\Wieslaw\Documents\Workspace SpringTS\project-ms\src\main\java\ga\linuxcafe\pms\parameters" />
+      <recent name="C:\Users\Wieslaw\Documents\Workspace SpringTS\project-ms\src\main\resources" />
+      <recent name="C:\Users\Wieslaw\Documents\Workspace SpringTS\project-ms\src\main\resources\templates\security" />
       <recent name="C:\Users\Wieslaw\Documents\Workspace SpringTS\project-ms\src\main\resources\static\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -104,11 +141,11 @@
       <recent name="ga.linuxcafe.pms" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ga.linuxcafe.pms.security.controllers" />
+      <recent name="ga.linuxcafe.pms.security.services" />
+      <recent name="ga.linuxcafe.pms.security.repositores" />
+      <recent name="ga.linuxcafe.pms.security.models" />
       <recent name="ga.linuxcafe.pms.helpdesk.controllers" />
-      <recent name="ga.linuxcafe.pms.helpdesk.services" />
-      <recent name="ga.linuxcafe.pms.helpdesk.repositores" />
-      <recent name="ga.linuxcafe.pms.helpdesk.models" />
-      <recent name="ga.linuxcafe.pms.accounts.controllers" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ProjectMsApplication">
@@ -169,6 +206,8 @@
       <workItem from="1639295250439" duration="13986000" />
       <workItem from="1639335237861" duration="5148000" />
       <workItem from="1639455855438" duration="2030000" />
+      <workItem from="1639460228649" duration="20692000" />
+      <workItem from="1639482179645" duration="11447000" />
     </task>
     <servers />
   </component>
@@ -180,7 +219,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -189,7 +240,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
-      <path value="$PROJECT_DIR$" />
       <path value="$PROJECT_DIR$/projectsmsv2" />
     </ignored-roots>
   </component>

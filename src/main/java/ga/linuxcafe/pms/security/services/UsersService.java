@@ -1,7 +1,7 @@
-package ga.linuxcafe.pms.parameters.services;
+package ga.linuxcafe.pms.security.services;
 
-import ga.linuxcafe.pms.parameters.models.Users;
-import ga.linuxcafe.pms.parameters.repositories.UserRepository;
+import ga.linuxcafe.pms.security.models.Users;
+import ga.linuxcafe.pms.security.repositores.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

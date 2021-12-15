@@ -38,6 +38,7 @@ public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
                         "/vendor/**",
                         "/fonts/**",
                         "/img/**").permitAll()
+//                .antMatchers("/security/userEdit/**").hasRole("USER")
                 .antMatchers(
                         "/users/addNew").permitAll()
                 .antMatchers(
@@ -51,6 +52,8 @@ public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers(
                         "/users/resetPassword").permitAll()
                 .anyRequest().authenticated()
+                .and()
+                .exceptionHandling().accessDeniedPage("/accessDenied")
                 .and()
                 .formLogin()
                 .loginPage("/login").permitAll()
