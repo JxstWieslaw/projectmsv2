@@ -11,6 +11,11 @@ public class ApplicationController {
 		return "accessDenied";
 	}
 
+	@GetMapping("/pageNotFound")
+	public String pageNotFound() {
+		return "pageNotFound";
+	}
+
 	@GetMapping("/index")
 	public String home() {
 		return "index";
@@ -19,11 +24,6 @@ public class ApplicationController {
 	@GetMapping("/_layout")
 	public String layout() {
 		return "_layout";
-	}
-	
-	@GetMapping("/index2")
-	public String index2() {
-		return "index2";
 	}
 	
 	@GetMapping("/hr")

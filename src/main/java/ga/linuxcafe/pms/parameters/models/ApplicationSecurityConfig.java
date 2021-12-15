@@ -38,7 +38,7 @@ public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
                         "/vendor/**",
                         "/fonts/**",
                         "/img/**").permitAll()
-//                .antMatchers("/security/userEdit/**").hasRole("USER")
+                .antMatchers("/security/userEdit/**").hasRole("ADMIN")
                 .antMatchers(
                         "/users/addNew").permitAll()
                 .antMatchers(
