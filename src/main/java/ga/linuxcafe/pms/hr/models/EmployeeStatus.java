@@ -13,7 +13,6 @@ import javax.persistence.Entity;
 @AllArgsConstructor
 @Getter
 @Setter
-@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 public class EmployeeStatus extends CommonObject {
 
 }

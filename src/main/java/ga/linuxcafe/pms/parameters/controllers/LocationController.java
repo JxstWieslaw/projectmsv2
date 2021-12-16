@@ -41,6 +41,7 @@ public class LocationController {
     @GetMapping("/parameters/locationAdd")
     public String addLocation(Model model){
         model.addAttribute("countries", countryService.getAll());
+        model.addAttribute("states", stateService.getAll());
         return "parameters/locationAdd";
     }
 

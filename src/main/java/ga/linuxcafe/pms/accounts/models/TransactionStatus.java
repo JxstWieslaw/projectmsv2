@@ -13,8 +13,8 @@ import javax.persistence.*;
 public class TransactionStatus {
 
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="id")
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="transactionstatus_seq")
+	@SequenceGenerator(name="transactionstatus_seq", allocationSize = 1)
 	private int id;
 
 	private String details;

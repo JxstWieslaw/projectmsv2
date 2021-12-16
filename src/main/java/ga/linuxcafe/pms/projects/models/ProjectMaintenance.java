@@ -1,7 +1,5 @@
 package ga.linuxcafe.pms.projects.models;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import ga.linuxcafe.pms.hr.models.Employee;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -15,12 +13,11 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 public class ProjectMaintenance {
-		
+
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="id")
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="projectmaintenance_seq")
+	@SequenceGenerator(name="projectmaintenance_seq", allocationSize = 1)
 	private int id;
 	
 	@ManyToOne

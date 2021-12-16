@@ -9,8 +9,8 @@ import javax.persistence.*;
 @Data
 public class ProjectStatus {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="id")
+    @GeneratedValue(strategy=GenerationType.SEQUENCE, generator="projectstatus_seq")
+    @SequenceGenerator(name="projectstatus_seq", allocationSize = 1)
     private int id;
 
     @OneToOne(mappedBy="projectStatus")

@@ -13,10 +13,10 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ProjectHire {
-		
+
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="id")
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="projecthire_seq")
+	@SequenceGenerator(name="projecthire_seq", allocationSize = 1)
 	private int id;
 	
 	@ManyToOne

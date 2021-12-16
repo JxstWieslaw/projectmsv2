@@ -1,7 +1,5 @@
 package ga.linuxcafe.pms.parameters.models;
 
-import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,12 +10,11 @@ import javax.persistence.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
 public class Contact {
-		
+
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="id")
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="contact_seq")
+	@SequenceGenerator(name="contact_seq", allocationSize = 1)
 	private int id;
 	private String firstname;
 	private String lastname;
@@ -25,4 +22,6 @@ public class Contact {
 	private String email;
 	private String mobile;
 	private String remarks;
+
+
 }

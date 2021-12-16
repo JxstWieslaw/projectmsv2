@@ -15,7 +15,8 @@ import java.util.Date;
 @AllArgsConstructor
 public class Ticket {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy=GenerationType.SEQUENCE, generator="ticket_seq")
+    @SequenceGenerator(name="ticket_seq", allocationSize = 1)
     private Integer id;
 
     private String description;

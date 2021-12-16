@@ -11,10 +11,10 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Department {
-		
+
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name="id")
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="department_seq")
+	@SequenceGenerator(name="department_seq", allocationSize = 1)
 	private int id;
 
 	private String description;

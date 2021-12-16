@@ -92,7 +92,6 @@ public class EmployeeController {
 	//Save update
 	@RequestMapping(value="/hr/employees/update/{id}", method={RequestMethod.GET,RequestMethod.PUT})
 	public String update(Employee employee){
-		employee.setEmployeeId(employee.getEmployeeId());
 		employeeService.save(employee);
 		return "redirect:/hr/employees";
 	}

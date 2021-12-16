@@ -16,10 +16,10 @@ import java.util.Date;
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
-public class Invoice {	
-	
+public class Invoice {
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="invoice_seq")
+	@SequenceGenerator(name="invoice_seq", allocationSize = 1)
 	private Integer id;
 	
 	@DateTimeFormat(pattern="yyyy-MM-dd")
