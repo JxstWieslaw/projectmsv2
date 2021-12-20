@@ -5,7 +5,186 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cecf2a0f-020b-4996-8264-ab01e77f4186" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a01ad9a4-3f4f-42c9-8540-a2414aee49d1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a01ad9a4-3f4f-42c9-8540-a2414aee49d1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/_layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/accessDenied.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/accessDenied.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/accounts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/accounts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/accounts/invoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/accounts/invoice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/accounts/invoiceStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/accounts/invoiceStatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/accounts/transaction.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/accounts/transaction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/accounts/transactionAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/accounts/transactionAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/accounts/transactionDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/accounts/transactionDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/accounts/transactionEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/accounts/transactionEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/accounts/transactionType.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/accounts/transactionType.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/helpdesk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/helpdesk/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/helpdesk/ticketAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/helpdesk/ticketAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/helpdesk/ticketDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/helpdesk/ticketDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/helpdesk/ticketEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/helpdesk/ticketEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/helpdesk/ticketStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/helpdesk/ticketStatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/helpdesk/tickets.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/helpdesk/tickets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hr/departmentAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hr/departmentAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hr/departmentDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hr/departmentDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hr/departmentEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hr/departmentEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hr/departments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hr/departments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hr/employeeAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hr/employeeAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hr/employeeDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hr/employeeDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hr/employeeEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hr/employeeEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hr/employeeStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hr/employeeStatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hr/employeeType.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hr/employeeType.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hr/employees.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hr/employees.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hr/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hr/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hr/jobRole.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hr/jobRole.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pageNotFound.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pageNotFound.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/clientAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/clientAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/clientDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/clientDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/clientEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/clientEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/clients.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/clients.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/countries.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/countries.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/countryAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/countryAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/countryDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/countryDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/countryEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/countryEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/locationAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/locationAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/locationDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/locationDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/locationEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/locationEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/locations.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/locations.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/modules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/stateAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/stateAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/stateDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/stateDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/stateEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/stateEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/states.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/states.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/supplier.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/supplier.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/payroll/countryAdd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/payroll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/payroll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/new-project.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/project.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/projectAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/projectAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/projectCount.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/projectCount.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/projectDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/projectDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/projectEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/projectEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/projectHire.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/projectHire.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/projectHireAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/projectHireAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/projectHireDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/projectHireDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/projectHireEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/projectHireEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/projectMaintenance.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/projectMaintenance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/projectMaintenanceAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/projectMaintenanceAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/projectMaintenanceDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/projectMaintenanceDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/projectMaintenanceEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/projectMaintenanceEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/projectStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/projectStatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/projectStatusAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/projectStatusAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/projectType.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/projectType.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/security/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/security/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/security/role.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/security/role.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/security/roleDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/security/roleDetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/security/roleEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/security/roleEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/security/userAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/security/userAdd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/security/userEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/security/userEdit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/security/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/security/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/ProjectMsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/ProjectMsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/controllers/InvoiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/controllers/InvoiceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/controllers/InvoiceStatusController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/controllers/InvoiceStatusController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/controllers/TransactionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/controllers/TransactionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/controllers/TransactionTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/controllers/TransactionTypeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/models/InvoiceStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/models/InvoiceStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/models/TransactionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/models/TransactionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/repositores/InvoiceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/repositores/InvoiceRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/repositores/InvoiceStatusRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/repositores/InvoiceStatusRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/repositores/TransactionRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/repositores/TransactionRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/repositores/TransactionStatusRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/repositores/TransactionStatusRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/repositores/TransactionTypeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/repositores/TransactionTypeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/services/InvoiceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/services/InvoiceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/services/InvoiceStatusService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/services/InvoiceStatusService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/services/TransactionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/services/TransactionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/services/TransactionStatusService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/services/TransactionStatusService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/services/TransactionTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/accounts/services/TransactionTypeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/helpdesk/controllers/TicketController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/helpdesk/controllers/TicketController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/helpdesk/controllers/TicketStatusController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/helpdesk/controllers/TicketStatusController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/helpdesk/models/TicketStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/helpdesk/models/TicketStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/helpdesk/repositores/TicketRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/helpdesk/repositores/TicketRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/helpdesk/repositores/TicketStatusRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/helpdesk/repositores/TicketStatusRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/helpdesk/services/TicketService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/helpdesk/services/TicketService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/helpdesk/services/TicketStatusService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/helpdesk/services/TicketStatusService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/controllers/DepartmentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/controllers/DepartmentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/controllers/EmployeeStatusController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/controllers/EmployeeStatusController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/controllers/EmployeeTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/controllers/EmployeeTypeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/controllers/JobRoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/controllers/JobRoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/models/EmployeeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/models/EmployeeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/models/JobRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/models/JobRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/repositories/DepartmentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/repositories/DepartmentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/repositories/EmployeeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/repositories/EmployeeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/repositories/EmployeeStatusRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/repositories/EmployeeStatusRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/repositories/EmployeeTypeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/repositories/EmployeeTypeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/repositories/JobRoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/repositories/JobRoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/services/DepartmentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/services/DepartmentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/services/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/services/EmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/services/EmployeeStatusService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/services/EmployeeStatusService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/services/EmployeeTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/services/EmployeeTypeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/services/JobRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/hr/services/JobRoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/ApplicationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/ApplicationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/ClientController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/ClientController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/ContactController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/ContactController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/CountryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/CountryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/ModuleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/ModuleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/ProfileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/ProfileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/StateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/StateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/SupplierController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/SupplierController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/models/ApplicationSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/models/ApplicationSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/ClientRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/ClientRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/ContactRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/ContactRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/CountryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/CountryRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/GenderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/GenderRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/LocationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/LocationRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/MaritalStatusRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/MaritalStatusRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/ModuleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/ModuleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/PercentCompleteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/PercentCompleteRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/ProjectPriorityRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/ProjectPriorityRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/ProjectStageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/ProjectStageRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/StateRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/StateRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/SupplierRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/SupplierRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/TitleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/repositories/TitleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/ClientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/ClientService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/ContactService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/ContactService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/CountryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/CountryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/GenderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/GenderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/LocationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/LocationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/MaritalStatusService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/MaritalStatusService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/ModuleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/ModuleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/PercentCompleteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/PercentCompleteService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/ProjectPriorityService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/ProjectPriorityService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/ProjectStageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/ProjectStageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/StateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/StateService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/SupplierService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/SupplierService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/TitleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/services/TitleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/controllers/ProjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/controllers/ProjectController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/controllers/ProjectCountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/controllers/ProjectCountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/controllers/ProjectHireController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/controllers/ProjectHireController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/controllers/ProjectMaintenanceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/controllers/ProjectMaintenanceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/controllers/ProjectStatusController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/controllers/ProjectStatusController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/controllers/ProjectTypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/controllers/ProjectTypeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/models/ProjectType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/models/ProjectType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/repositores/ProjectHireRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/repositores/ProjectHireRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/repositores/ProjectMaintenanceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/repositores/ProjectMaintenanceRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/repositores/ProjectRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/repositores/ProjectRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/repositores/ProjectStatusRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/repositores/ProjectStatusRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/repositores/ProjectTypeRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/repositores/ProjectTypeRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/services/ProjectHireService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/services/ProjectHireService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/services/ProjectMaintenanceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/services/ProjectMaintenanceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/services/ProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/services/ProjectService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/services/ProjectStatusService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/services/ProjectStatusService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/services/ProjectTypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/projects/services/ProjectTypeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/reports/ReportsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/reports/ReportsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/security/repositores/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/security/repositores/RoleRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/security/repositores/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/security/repositores/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/security/services/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/security/services/RoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/security/services/UsersService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/security/services/UsersService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ga/linuxcafe/pms/ProjectMsApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ga/linuxcafe/pms/ProjectMsApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +212,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/controllers/ProfileController.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/resources/templates/parameters/contact.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/controllers/ProfileController.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -57,6 +236,16 @@
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="17" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
   </component>
   <component name="ProjectId" id="21W9gDFhhDt4NUajua6ttEFGqrt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -86,7 +275,8 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -114,9 +304,16 @@
       <recent name="ga.linuxcafe.pms.helpdesk.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProjectMsApplication">
+  <component name="RunManager" selected="Spring Boot.ProjectMsApplication (1)">
     <configuration name="employees.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/project-ms/templates/hr/employees.html" useBuiltInWebServerPort="true">
       <method v="2" />
+    </configuration>
+    <configuration name="ProjectMsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="projectmsv2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ga.linuxcafe.pms.ProjectMsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ProjectMsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="project-ms" />
@@ -178,6 +375,10 @@
       <workItem from="1639587792264" duration="538000" />
       <workItem from="1639645643605" duration="1032000" />
       <workItem from="1639646697789" duration="8572000" />
+      <workItem from="1640004999661" duration="965000" />
+      <workItem from="1640005984680" duration="174000" />
+      <workItem from="1640006792834" duration="3539000" />
+      <workItem from="1640038475398" duration="4393000" />
     </task>
     <servers />
   </component>

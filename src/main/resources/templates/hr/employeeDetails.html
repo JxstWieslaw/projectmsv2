@@ -14,9 +14,9 @@
                 <h1 class="h3 mb-2 text-gray-800">Employee Details</h1>
                 <!--Page Heading End-->
                 <ol class="breadcrumb">
-                    <li><i class="fa fa-home"></i><a href="/index">Home</a></li>
-                    <li><i class="fa fa-bars"></i><a href="/hr">HR Home</a></li>
-                    <li><i class="fa fa-bars"></i><a href="/hr/employees">Employees List</a></li>
+                    <li><i class="fa fa-home"></i><a th:href="@{/index}">Home</a></li>
+                    <li><i class="fa fa-bars"></i><a th:href="@{/hr}">HR Home</a></li>
+                    <li><i class="fa fa-bars"></i><a th:href="@{/hr/employees}">Employees List</a></li>
                     <li class="text-gray-800"><i class="fa fa-square-o"></i>Employee Record Details</li>
                 </ol>
                 <div class="card shadow mb-4">
@@ -216,7 +216,7 @@
                                     </tr>
                                 </table>
                                 <div class="card-footer">
-                                    <a href="/hr/employees"  class="btn btn-warning">Exit</a>
+                                    <a th:href="/hr/employees"  class="btn btn-warning">Exit</a>
                                 </div>
                             </div>
                         </form>

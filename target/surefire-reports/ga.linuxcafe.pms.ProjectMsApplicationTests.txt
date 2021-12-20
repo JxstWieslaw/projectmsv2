@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ga.linuxcafe.pms.ProjectMsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.936 s - in ga.linuxcafe.pms.ProjectMsApplicationTests
