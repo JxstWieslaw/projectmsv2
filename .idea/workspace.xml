@@ -5,128 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cecf2a0f-020b-4996-8264-ab01e77f4186" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/about/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/about/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/about/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/about/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/close-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/header-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/map-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/img/team/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/scripts1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/landingPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/controllers/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/controllers/ApplicationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/controllers/CountryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/controllers/CountryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/controllers/StateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/controllers/StateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/models/ApplicationSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ga/linuxcafe/pms/parameters/models/ApplicationSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/_layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/accounts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/accounts/accountsHome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/forgot-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/forgot-password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/helpdesk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/helpdesk/helpdeskHome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hr/employeeStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hr/employeeStatus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hr/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hr/hrHome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/parametersHome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parameters/locations.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parameters/locations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/payroll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/payroll/payrollHome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/projects/projectsHome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/security/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/security/securityHome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/ApplicationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/ApplicationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/CountryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/CountryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/StateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/controllers/StateController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/models/ApplicationSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ga/linuxcafe/pms/parameters/models/ApplicationSecurityConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/_layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/accessDenied.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/accessDenied.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/accounts/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/accounts/invoice.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/accounts/invoice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/accounts/invoiceStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/accounts/invoiceStatus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/accounts/transaction.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/accounts/transaction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/accounts/transactionAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/accounts/transactionAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/accounts/transactionDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/accounts/transactionDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/accounts/transactionEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/accounts/transactionEdit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/accounts/transactionType.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/accounts/transactionType.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/forgot-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/forgot-password.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/helpdesk/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/helpdesk/ticketAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/helpdesk/ticketAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/helpdesk/ticketDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/helpdesk/ticketDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/helpdesk/ticketEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/helpdesk/ticketEdit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/helpdesk/ticketStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/helpdesk/ticketStatus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/helpdesk/tickets.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/helpdesk/tickets.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hr/departmentAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/hr/departmentAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hr/departmentDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/hr/departmentDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hr/departmentEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/hr/departmentEdit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hr/departments.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/hr/departments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hr/employeeAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/hr/employeeAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hr/employeeDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/hr/employeeDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hr/employeeEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/hr/employeeEdit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hr/employeeStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/hr/employeeStatus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hr/employeeType.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/hr/employeeType.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hr/employees.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/hr/employees.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hr/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/hr/jobRole.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/hr/jobRole.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/pageNotFound.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/pageNotFound.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/clientAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/clientAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/clientDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/clientDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/clientEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/clientEdit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/clients.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/clients.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/countries.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/countries.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/countryAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/countryAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/countryDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/countryDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/countryEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/countryEdit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/locationAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/locationAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/locationDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/locationDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/locationEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/locationEdit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/locations.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/locations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/modules.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/modules.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/stateAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/stateAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/stateDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/stateDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/stateEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/stateEdit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/states.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/states.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parameters/supplier.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parameters/supplier.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/payroll/countryAdd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/payroll/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/new-project.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/project.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/projects/project.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/projectAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/projects/projectAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/projectCount.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/projects/projectCount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/projectDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/projects/projectDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/projectEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/projects/projectEdit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/projectHire.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/projects/projectHire.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/projectHireAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/projects/projectHireAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/projectHireDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/projects/projectHireDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/projectHireEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/projects/projectHireEdit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/projectMaintenance.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/projects/projectMaintenance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/projectMaintenanceAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/projects/projectMaintenanceAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/projectMaintenanceDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/projects/projectMaintenanceDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/projectMaintenanceEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/projects/projectMaintenanceEdit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/projectStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/projects/projectStatus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/projectStatusAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/projects/projectStatusAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/projects/projectType.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/projects/projectType.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/security/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/security/role.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/security/role.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/security/roleDetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/security/roleDetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/security/roleEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/security/roleEdit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/security/userAdd.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/security/userAdd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/security/userEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/security/userEdit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/security/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/security/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/project-ms-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/project-ms-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/project-ms-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/project-ms-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2021-12-20T20-40-10_460-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ga.linuxcafe.pms.ProjectMsApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ga.linuxcafe.pms.ProjectMsApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ga.linuxcafe.pms.ProjectMsApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ga.linuxcafe.pms.ProjectMsApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +89,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="PostgreSQL" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -222,11 +104,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Wieslaw\Documents\Workspace SpringTS\projectmsv2\src\main\resources" />
       <recent name="C:\Users\Wieslaw\Documents\Workspace SpringTS\projectmsv2\src\main\resources\templates" />
       <recent name="C:\Users\Wieslaw\Documents\Workspace SpringTS\projectmsv2\src\main\resources\static\css" />
       <recent name="C:\Users\Wieslaw\Documents\Workspace SpringTS\projectmsv2\src\main\resources\static\js" />
       <recent name="C:\Users\Wieslaw\Documents\Workspace SpringTS\projectmsv2\src\main\resources\static\assets" />
-      <recent name="C:\Users\Wieslaw\Documents\Workspace SpringTS\project-ms\src\main\java\ga\linuxcafe\pms\security\models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Wieslaw\Documents\Workspace SpringTS\projectmsv2\src\main\resources\static\js" />
@@ -327,6 +209,7 @@
       <workItem from="1640061121460" duration="824000" />
       <workItem from="1640064687528" duration="2543000" />
       <workItem from="1640068172979" duration="3117000" />
+      <workItem from="1640077345539" duration="2479000" />
     </task>
     <servers />
   </component>
