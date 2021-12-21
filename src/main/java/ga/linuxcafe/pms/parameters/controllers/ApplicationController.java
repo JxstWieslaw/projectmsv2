@@ -20,7 +20,12 @@ public class ApplicationController {
 	public String home() {
 		return "index";
 	}
-	
+
+	@GetMapping("/")
+	public String dashboard() {
+		return "landingPage";
+	}
+
 	@GetMapping("/_layout")
 	public String layout() {
 		return "_layout";
@@ -28,37 +33,37 @@ public class ApplicationController {
 	
 	@GetMapping("/hr")
 	public String hr() {
-		return "/hr/index";
+		return "hr/hrHome";
 	}
 	
 	@GetMapping("/accounts")
 	public String accounts() {
-		return "/accounts/index";
+		return "accounts/accountsHome";
 	}
 	
 	@GetMapping("/helpdesk")
 	public String helpdesk() {
-		return "/helpdesk/index";
+		return "helpdesk/helpdeskHome";
 	}
 	
 	@GetMapping("/parameters")
 	public String parameters() {
-		return "/parameters/index";
+		return "parameters/parametersHome";
 	}
 	
 	@GetMapping("/payroll")
 	public String payroll() {
-		return "/payroll/index";
+		return "payroll/payrollHome";
 	}
 	
 	@GetMapping("/projects")
 	public String projects() {
-		return "/projects/index";
+		return "projects/projectsHome";
 	}
 	
 	@GetMapping("/security")
 	public String security() {
-		return "/security/index";
+		return "security/securityHome";
 	}
 
 	@GetMapping("/login")

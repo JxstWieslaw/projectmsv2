@@ -12,6 +12,7 @@
     <title>CodeVilla Admin</title>
 
     <!-- Custom fonts for this template-->
+    <link rel="icon" type="image/x-icon" th:href="@{/assets/favicon.ico}" />
     <link th:href="@{/vendor/fontawesome-free/css/all.min.css}" rel="stylesheet" type="text/css">
     <link
         th:href="@{https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i}"
@@ -63,7 +64,7 @@
                 <div id="collapseHr" class="collapse" aria-labelledby="headingHr"
                      data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="/hr">HR Home</a>
+                        <a class="collapse-item" th:href="@{/hr}">HR Home</a>
                     </div>
                 </div>
             </li>
@@ -81,7 +82,7 @@
                 <div id="collapseProjects" class="collapse" aria-labelledby="headingProjects"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="/projects">Projects Home</a>
+                        <a class="collapse-item" th:href="@{/projects}">Projects Home</a>
                     </div>
                 </div>
             </li>
@@ -97,7 +98,7 @@
                 <div id="collapseAccounts" class="collapse" aria-labelledby="headingAccounts"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="/accounts">Accounts Home</a>
+                        <a class="collapse-item" th:href="@{/accounts}">Accounts Home</a>
                     </div>
                 </div>
             </li>
@@ -113,7 +114,7 @@
 <!--                <div id="collapsePayroll" class="collapse" aria-labelledby="headingPayroll"-->
 <!--                    data-parent="#accordionSidebar">-->
 <!--                    <div class="bg-white py-2 collapse-inner rounded">-->
-<!--                        <a class="collapse-item" href="/payroll">Payroll Home</a>-->
+<!--                        <a class="collapse-item" th:href="@{/payroll}">Payroll Home</a>-->
 <!--                    </div>-->
 <!--                </div>-->
 <!--            </li>-->
@@ -129,7 +130,7 @@
                 <div id="collapseHelpDesk" class="collapse" aria-labelledby="headingHelpDesk"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="/helpdesk">HelpDesk Home</a>
+                        <a class="collapse-item" th:href="@{/helpdesk}">HelpDesk Home</a>
                     </div>
                 </div>
             </li>
@@ -145,7 +146,7 @@
                 <div id="collapseParameters" class="collapse" aria-labelledby="headingParameters"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="/parameters">Parameters Home</a>
+                        <a class="collapse-item" th:href="@{/parameters}">Parameters Home</a>
                     </div>
                 </div>
             </li>
@@ -161,7 +162,7 @@
                 <div id="collapseSecurity" class="collapse" aria-labelledby="headingSecurity"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="/security">Security Home</a>
+                        <a class="collapse-item" th:href="@{/security}">Security Home</a>
                     </div>
                 </div>
             </li>
@@ -469,14 +470,13 @@
     <th:block layout:fragment="script">
         <script>
             $('document').ready(function () { // Line 1
-
                 $('#ddlCountryAdd').on('change',function () { // Line 2
 
                     $('#ddlStateAdd').empty().append('<option value="null">-SELECT-</option>'); // Line 3
 
                     var countryid = $(this).val(); //Line 4
 
-                    var href = "http://localhost:8080/parameters/country/" + countryid //Line 5
+                    var href = "https://linuxcafe.ga/parameters/country/" + countryid //Line 5
 
                     $.get(href, function (country, status) { // Line 6
 
@@ -495,7 +495,7 @@
 
                     var countryid = $(this).val(); //Line 4
 
-                    var href = "http://localhost:8080/parameters/country/" + countryid //Line 5
+                    var href = "https://linuxcafe.ga/parameters/country/" + countryid //Line 5
 
                     $.get(href, function (country, status) { // Line 6
 
@@ -511,5 +511,4 @@
         </script>
     </th:block>
 </body>
-
 </html>

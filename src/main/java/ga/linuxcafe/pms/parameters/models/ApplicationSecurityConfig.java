@@ -23,6 +23,15 @@ public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
                 .csrf().disable()
                 .authorizeRequests()
                 .antMatchers(
+                        "/",
+                        "/resources/**",
+                        "/assets/**",
+                        "/js/**",
+                        "/css/**",
+                        "/vendor/**",
+                        "/fonts/**",
+                        "/img/**").permitAll()
+                .antMatchers(
                         "/login",
                         "/resources/**",
                         "/js/**",
@@ -38,7 +47,7 @@ public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
                         "/vendor/**",
                         "/fonts/**",
                         "/img/**").permitAll()
-                .antMatchers("/security/userEdit/**").hasRole("ADMIN")
+//                .antMatchers("/security/userEdit/**").hasRole("ADMIN")
                 .antMatchers(
                         "/users/addNew").permitAll()
                 .antMatchers(
@@ -56,6 +65,7 @@ public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
                 .exceptionHandling().accessDeniedPage("/accessDenied")
                 .and()
                 .formLogin()
+                .defaultSuccessUrl("/index")
                 .loginPage("/login").permitAll()
                 .and()
                 .logout().invalidateHttpSession(true)

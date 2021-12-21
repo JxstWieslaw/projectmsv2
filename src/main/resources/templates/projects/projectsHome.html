@@ -16,7 +16,7 @@
         <!-- Page Heading -->
         <h1 class="h2 mb-2 text-gray-800">Projects Home</h1>
         <ol class="breadcrumb">
-          <li><i class="fa fa-home"></i><a href="/index">Home</a></li>
+          <li><i class="fa fa-home"></i><a th:href="@{/index}">Home</a></li>
           <li class="text-gray-800"><i class="fa fa-square-o"></i>Projects Home</li>
         </ol>
         <div class=" mb-4">
@@ -27,7 +27,7 @@
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title"><h3><b> Projects ️</b></h3></h5>
-                    <a href="/projects/projects" class="btn btn-primary">Manage Projects</a>
+                    <a th:href="@{/projects/projects}" class="btn btn-primary">Manage Projects</a>
                   </div>
                 </div>
               </div>

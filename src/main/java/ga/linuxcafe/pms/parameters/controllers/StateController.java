@@ -27,7 +27,7 @@ public class StateController {
     @GetMapping("/parameters/states")
     public String findAll(Model model){
         addModelAttribute(model);
-        return "/parameters/states";
+        return "parameters/states";
     }
 
     @GetMapping("/parameters/stateAdd")
@@ -47,7 +47,7 @@ public class StateController {
     public String editState(@PathVariable Integer id, @PathVariable String op, Model model){
         addModelAttribute(model);
         model.addAttribute("state", stateService.getById(id));
-        return "/parameters/state" + op;
+        return "parameters/state" + op;
     }
 
     //Add State

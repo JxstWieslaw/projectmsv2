@@ -16,9 +16,9 @@
                 <!-- Page Heading -->
                 <h1 class="h3 mb-2 text-gray-800">New Client Form</h1>
                 <ol class="breadcrumb">
-                    <li><i class="fa fa-home"></i><a href="/index">Home</a></li>
-                    <li><i class="fa fa-bars"></i><a href="/parameters">Parameters Home</a></li>
-                    <li><i class="fa fa-bars"></i><a href="/parameters/clients">Clients List</a></li>
+                    <li><i class="fa fa-home"></i><a th:href="@{/index}">Home</a></li>
+                    <li><i class="fa fa-bars"></i><a th:href="@{/parameters}">Parameters Home</a></li>
+                    <li><i class="fa fa-bars"></i><a th:href="@{/parameters/clients}">Clients List</a></li>
                     <li class="text-gray-800"><i class="fa fa-square-o"></i>Add New Client</li>
                 </ol>
                 <!-- DataTables Example -->
@@ -114,8 +114,8 @@
                               </tr>
                           </table>
                           <div class="card-footer" style="width: 70%">
-                              <button type="submit" href="/parameters/clients"  class="btn btn-success">Save</button>
-                              <a href="/parameters/clients"  class="btn btn-warning">Exit</a>
+                              <button type="submit" th:href="@{/parameters/clients}"  class="btn btn-success">Save</button>
+                              <a th:href="@{/parameters/clients}"  class="btn btn-warning">Exit</a>
                           </div>
                       </form>
                     </div>

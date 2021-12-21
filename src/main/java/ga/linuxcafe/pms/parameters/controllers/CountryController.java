@@ -66,7 +66,7 @@ public class CountryController {
     public String editCountry(@PathVariable Integer id, @PathVariable String op, Model model){
         Country country = countryService.getById(id);
         model.addAttribute("country", country);
-        return "/parameters/country"+ op;
+        return "parameters/country"+ op;
     }
 
 
