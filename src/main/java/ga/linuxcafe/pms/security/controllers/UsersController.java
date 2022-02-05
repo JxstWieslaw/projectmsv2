@@ -49,7 +49,7 @@ public class UsersController {
 		return "redirect:/security/users";
 	}
 
-	@GetMapping("/security/userEdit/{id}")
+//	@GetMapping("/security/userEdit/{id}")
 	public String editEmployee(@PathVariable Integer id, Model model){
 		Users user = userService.getById(id);
 		model.addAttribute("user", user);
